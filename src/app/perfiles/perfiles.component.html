@@ -1,0 +1,20 @@
+<div class="container mt-5">
+    <h2 class="text-center">Perfiles Destacados</h2>
+    <p class="text-center lead">Conoce a los usuarios más activos y sus actividades favoritas.</p>
+  
+    <div class="row">
+      <div class="col-md-4" *ngFor="let perfil of perfiles">
+        <div class="card mb-4">
+          <img [src]="perfil.imagen" class="card-img-top" alt="{{ perfil.nombre }}">
+          <div class="card-body">
+            <h5 class="card-title">{{ perfil.nombre }}</h5>
+            <p class="card-text"><strong>Actividad favorita:</strong> {{ perfil.actividad }}</p>
+            <p class="card-text"><strong>Ubicación:</strong> {{ perfil.ubicacion }}</p>
+            <p class="card-text">{{ perfil.descripcion }}</p>
+            <a href="#" class="btn btn-primary">Ver perfil</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
