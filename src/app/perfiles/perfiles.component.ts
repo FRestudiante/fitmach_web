@@ -15,21 +15,21 @@ export class PerfilesComponent {
       actividad: 'Ciclismo',
       ubicacion: 'Santiago, Chile',
       descripcion: 'Aficionado al ciclismo urbano y siempre buscando nuevos compañeros de ruta.',
-      imagen: 'assets/cycling-profile.jpg'
+      imagen: 'assets/juan.jpg'
     },
     {
       nombre: 'María Gómez',
       actividad: 'Yoga',
       ubicacion: 'Buenos Aires, Argentina',
       descripcion: 'Amante del yoga al aire libre, enfocada en meditación y relajación.',
-      imagen: 'assets/yoga-profile.jpg'
+      imagen: 'assets/maria.png'
     },
     {
       nombre: 'Carlos Rivera',
       actividad: 'Entrenamiento en gimnasio',
       ubicacion: 'Ciudad de México, México',
       descripcion: 'Fanático del entrenamiento de fuerza y en constante búsqueda de retos.',
-      imagen: 'assets/gym-profile.jpg'
+      imagen: 'assets/carlos.jpg'
     }
   ];
 }
